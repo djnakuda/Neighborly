@@ -1,0 +1,47 @@
+PODS:
+  - Alamofire (4.6.0)
+  - Cloudinary (2.3.0):
+    - Alamofire (~> 4.6.0)
+  - GoogleMaps (2.6.0):
+    - GoogleMaps/Maps (= 2.6.0)
+  - GoogleMaps/Base (2.6.0)
+  - GoogleMaps/Maps (2.6.0):
+    - GoogleMaps/Base
+  - GooglePlacePicker (2.6.0):
+    - GoogleMaps (= 2.6.0)
+    - GooglePlaces (= 2.6.0)
+  - GooglePlaces (2.6.0):
+    - GoogleMaps/Base (= 2.6.0)
+  - SendBirdSDK (3.0.93)
+  - Starscream (3.0.5)
+
+DEPENDENCIES:
+  - Cloudinary (~> 2.0)
+  - GoogleMaps
+  - GooglePlacePicker
+  - GooglePlaces
+  - SendBirdSDK
+  - Starscream (~> 3.0.2)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - Cloudinary
+    - GoogleMaps
+    - GooglePlacePicker
+    - GooglePlaces
+    - SendBirdSDK
+    - Starscream
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  Cloudinary: fd611d907bd6608f3556c40673b628e466809816
+  GoogleMaps: 42f91c68b7fa2f84d5c86597b18ceb99f5414c7f
+  GooglePlacePicker: e4488625effb006f59de49e14b7a603e463e4261
+  GooglePlaces: f6ddf33b75cef69e888907d9947c57198ed845f3
+  SendBirdSDK: d42b5b3483c6b86578e1677f2a5947e78d049f8a
+  Starscream: faf918b2f2eff7d5dd21180646bf015a669673bd
+
+PODFILE CHECKSUM: 1c70fbca2954ea41a01d2d75ef686a217c2596f5
+
+COCOAPODS: 1.5.0
